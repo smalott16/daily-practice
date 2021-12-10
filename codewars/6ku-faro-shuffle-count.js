@@ -19,5 +19,8 @@ function faroCount(deckSize){
     if (position === 1) {
       return shuffles;
     }
+    
   }
 }
+
+//console.log(faroCount(52));
