@@ -1,9 +1,5 @@
 function smallest(n) {
-  // Your code
-
-  //find index of the smallest number or created an ordered array of numbers
-  //created a sorted array of numbers by converting to string through type coersion, splitting to array, converting back to
-  //numbers then sorting the array
+  
   let nArray = n.toString().split('').map((i) => Number(i))
   const sortedArray = [...nArray].sort((a, b) => (a - b));
   let smallestNumber;
@@ -27,6 +23,4 @@ function smallest(n) {
 
 console.log(smallest(261235));
 console.log(smallest(209917));
-//console.log(smallest(285365));
-//console.log(smallest(269045));
-//console.log(smallest(296837));
+
