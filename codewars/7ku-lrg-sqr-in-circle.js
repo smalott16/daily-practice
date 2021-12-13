@@ -1,9 +1,7 @@
-function areaLargestSquare(r) {
-  //radius is the length of the 45deg line from the centre to edge of the circle
-  //legnth are the size of the triangle made by the radius line
-  // r = sqrt(l^2 + l^2) => r = sqrt(2 * l^2)
-  // A = (2* l)^2 => A = 4 * l^2
-  // r = sqrt(A/2)
-  //A = r^2
+function areaLargestSquare(r) {  
+  //radius is the diagonal from the centre of square to corner
+  //r = sqrt(l^2 + l^2) or r = sqrt(2 * l^2)
+  //A = (2 * l)^2 or A = 4 * l^2
+  //r = sqrt(A/2)
   return 2 * r * r;
 }
