@@ -14,7 +14,8 @@ function smallest(n) {
       nArray.splice(nArray.indexOf(0), 1);
       return [Number(nArray.join('')), j, i]
     } else if (j !== i) {
-      nArray.splice(j, 1).splice(i, 0, sortedArray[i]);
+      nArray.splice(j, 1)
+      nArray.splice(i, 0, sortedArray[i]);
       console.log(i)
       return [Number(nArray.join('')), j, i]
     }      
